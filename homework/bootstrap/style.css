@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit&display=swap');
+body{
+    font-family: 'Itim', cursive;
+}
+.navbar-brand{
+    color: deeppink;
+}
+.myBth{
+    color: aliceblue;
+    background-color: crimson;
+}
+.portfolio{
+    background-color: rgb(255, 0, 128);
+    color: aliceblue;
+}
+.iconStyle {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    color: #1982c4;
+  }
+  .headerVSpace {
+    padding-top: 40px;
+  }
+  .portfolio3{
+    background-color: rgb(255, 196, 226);
+  }  
