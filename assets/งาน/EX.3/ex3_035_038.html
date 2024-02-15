@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active Learning 3​</title>
+  </head>
+  <body>
+    <h1>ชื่อสมาชิก</h1>
+    <ol>
+        <li>6540011035 นางสาวปิยะเนตร แก่นแก้ว</li>
+        <li>6540011038 นายพันธกิจ แซ่ลิ้ง</li>
+    </ol>
+    <h1>ฟอร์มลงทะเบียนศิษย์เก่า IT + IS​</h1>
+    <form action="">
+      <label for="name">ชื่อ - นามสกุล :</label>
+      <input type="text" name="name" size="20" />
+      <br /><br />
+      <label for="student id​">รหัสนักศึกษา​ :</label>
+      <input type="text" name="student" size="20" maxlength="10" />
+      <br /><br />
+      <label for="gender"> เพศ :</label>
+      <input type="radio" name="gender" value="1" /> หญิง
+      <input type="radio" name="gender" /> ชาย
+      <input type="radio" name="gender" /> LGBTQ+ <br /><br />
+      <label for="yearstudied">ปีการศึกษาที่เข้าเรียน :</label>
+      <select name="yearstudied">
+        <option value="1">2563</option>
+        <option value="2">2562</option>
+        <option value="3">2561</option>
+        <option value="4">2560</option>
+        <option value="5">2559</option>
+        <option value="6">2558</option>
+        <option value="7">2557</option>
+        <option value="8">2556</option>
+        <option value="9">2555</option>
+      </select>
+      <br /><br />
+      <label for="address">ที่อยู่ :</label>
+      <textarea name="address" cols="25" rows="5"></textarea>
+      <br /><br />
+      <label for="email">อิเมล :</label>
+      <input type="email" name="email" size="20" />
+      <br /><br />
+      <label for="phone">เบอร์โทรติดต่อ :</label>
+      <input type="text" name="phone" size="20" maxlength="10" />
+      <br /><br />
+      <label for="department">ชื่อหลักสุตร :</label>
+      <select name="dept">
+        <option value="IT">IT</option>
+        <option value="IS">IS</option>
+      </select>
+      <br /><br />
+      <label for="job">อาชีพปัจจุบัน :</label>
+      <input type="text" name="job" size="20" />
+      <br /><br />
+      <h3>สถานที่ทำงาน</h3>
+      <label for="company">ชื่อบริษัท :</label>
+      <input type="text" name="company" size="20" />
+      <br /><br />
+      <label for="addresscompany">ที่อยู่บริษัท :</label>
+      <textarea name="addresscompany" cols="25" rows="5"></textarea>
+      <br />
+      <label for="typejob">ประเภทงานที่ :</label>
+      <select name="typejob">
+        <option value="Web Developer">Web Developer</option>
+        <option value="SA">SA</option>
+        <option value="Graphic Design">Graphic Design</option>
+        <option value="Digital Marketing ">Digital Marketing</option>
+        <option value="UX/UI">UX/UI</option>
+        <option value="IT Support">IT Support</option>
+      </select>
+      <br /><br />
+      <label for="profile">Upload รูปถ่ายตนเอง 1 รูป :</label>
+      <input type="file" name="profile" />
+      <br />
+      <br />
+      <input type="submit" value="ส่งข้อมูล" />
+    </form>
+  </body>
+</html>

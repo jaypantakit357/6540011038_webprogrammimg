@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+body{
+    font-family: 'Itim', cursive;
+}
+.navbar-brand{
+    color: rgb(0, 0, 0);
+}
+.myBth{
+    color: aliceblue;
+    background-color: crimson;
+}
+.portfolio{
+    background-color: rgb(5, 0, 3);
+    color: aliceblue;
+}
+.iconStyle {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    color: #1982c4;
+  }
+  .headerVSpace {
+    padding-top: 40px;
+  }
+  .portfolio3{
+    background-color: rgb(39, 39, 39);
+    color: azure;
+  }  
